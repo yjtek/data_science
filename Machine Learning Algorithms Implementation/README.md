@@ -1,0 +1,1 @@
+In this section, we'll go through the theoretical foundations of ML algorithms, and then implement them from scratch
