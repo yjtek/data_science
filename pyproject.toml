@@ -18,6 +18,12 @@ numpy = "^2.1.2"
 lightgbm = "^4.5.0"
 xgboost = "^2.1.1"
 nonconformist = "^2.1.0"
+dtype-diet = "^0.0.2"
+mapie = "^0.9.1"
+crepes = "^0.7.1"
+yellowbrick = "^1.5"
+setuptools = "^75.1.0"
+scikit-optimize = "^0.10.2"
 
 
 [build-system]
