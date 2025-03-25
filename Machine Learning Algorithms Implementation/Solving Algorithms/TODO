@@ -1,23 +1,23 @@
 Optimization Methods
-Newton’s Method – Uses second-order derivatives (Hessian) to find roots or optimize functions.
-Quasi-Newton Methods – Approximates the Hessian (e.g., BFGS, L-BFGS) for optimization.
-Conjugate Gradient – More efficient than gradient descent for solving large linear systems.
-Trust-Region Methods – Solves a local approximation of the problem within a “trust region” (e.g., used in SciPy’s trust-constr).
-Interior-Point Methods – Used in constrained optimization and linear programming.
+Newtons Method - Uses second-order derivatives (Hessian) to find roots or optimize functions.
+Quasi-Newton Methods - Approximates the Hessian (e.g., BFGS, L-BFGS) for optimization.
+Conjugate Gradient - More efficient than gradient descent for solving large linear systems.
+Trust-Region Methods - Solves a local approximation of the problem within a “trust region” (e.g., used in SciPy’s trust-constr).
+Interior-Point Methods - Used in constrained optimization and linear programming.
 
 Direct Solvers for Systems of Equations
-Gaussian Elimination – Systematic method for solving linear systems.
-LU Decomposition – Factorizes a matrix into lower and upper triangular matrices.
-Cholesky Decomposition – Efficient for solving symmetric positive-definite matrices.
-QR Decomposition – Useful for least squares problems.
+Gaussian Elimination - Systematic method for solving linear systems.
+LU Decomposition - Factorizes a matrix into lower and upper triangular matrices.
+Cholesky Decomposition - Efficient for solving symmetric positive-definite matrices.
+QR Decomposition - Useful for least squares problems.
 
 Heuristic and Approximate Methods
-Genetic Algorithms – Evolutionary approach that mimics natural selection.
-Simulated Annealing – Inspired by thermodynamics; explores the solution space probabilistically.
-Particle Swarm Optimization – Population-based stochastic optimization inspired by swarm behavior.
-Bayesian Optimization – Uses Gaussian processes to optimize expensive black-box functions.
+Genetic Algorithms - Evolutionary approach that mimics natural selection.
+Simulated Annealing - Inspired by thermodynamics; explores the solution space probabilistically.
+Particle Swarm Optimization - Population-based stochastic optimization inspired by swarm behavior.
+Bayesian Optimization - Uses Gaussian processes to optimize expensive black-box functions.
 
 Other Iterative Methods
-Jacobi and Gauss-Seidel Methods – Used for solving linear systems iteratively.
-Expectation-Maximization (EM) – Used in statistics for latent variable models.
-Alternating Least Squares (ALS) – Common in matrix factorization problems.
+Jacobi and Gauss-Seidel Methods - Used for solving linear systems iteratively.
+Expectation-Maximization (EM) - Used in statistics for latent variable models.
+Alternating Least Squares (ALS) - Common in matrix factorization problems.
